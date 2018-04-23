@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+#content {
+  margin-top: 20px;
+  width: 1250px;
+  height: 500px;
+  background: transparent;
+  margin-left: 60px; }
+
+#BarraSup {
+  text-align: left;
+  margin-top: 2px;
+  border: 5px solid black; }
+  #BarraSup nav {
+    margin: 10px; }
+    #BarraSup nav a {
+      text-decoration: none;
+      font: bold 16px Verdana;
+      padding: 12px 20px 12px 20px;
+      background: transparent;
+      border-bottom: 9px solid transparent;
+      transition: border-bottom 0.6s; }
+      #BarraSup nav a:hover {
+        border-bottom: 9px solid black; }
+
+#imagen {
+  float: left;
+  margin-left: 130px;
+  margin-top: 70px; }
+
+#text {
+  height: 100px;
+  color: black;
+  width: 300px;
+  text-align: left;
+  float: left;
+  margin-left: 90px; }
+
+#div1 {
+  margin-right: 50px;
+  padding: 5px;
+  width: 200px;
+  font: bold 16px Verdana;
+  text-align: center; }
+
+#div2 {
+  margin-top: -60px;
+  margin-left: 250px;
+  padding: 5px;
+  width: 200px;
+  font: bold 16px Verdana;
+  text-align: center; }
+
+#div3 {
+  width: 200px;
+  margin-top: -61px;
+  margin-left: 500px;
+  padding: 5px;
+  font: bold 16px Verdana;
+  text-align: center; }
+
+#button {
+  width: 100px;
+  height: 40px;
+  background: blue;
+  border: solid 3px black;
+  float: right;
+  margin-top: -40px;
+  margin-right: 400px;
+  border-radius: 5px;
+  font: bold 16px Verdana; }
+
+#info {
+  margin-top: 40px;
+  padding: 12px 20px 12px 20px;
+  width: 100%;
+  height: auto;
+  border: solid 1px black;
+  font: bold 16px Verdana; }
+  #info tr th {
+    padding: 25px;
+    font: bold 16px Verdana;
+    height: auto;
+    text-align: center;
+    background: #46CDD6; }
+
+#asd {
+  float: right;
+  padding: 25px;
+  font: bold 16px Verdana;
+  text-align: center; }
+
+.caja {
+  background: transparent;
+  width: 200px;
+  height: 28px;
+  border-radius: 5px;
+  border: solid 2px black; }
+
+/*# sourceMappingURL=main.css.map */
