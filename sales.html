@@ -10,7 +10,7 @@
 <body>
   <div id="div1">
     <p>Producto</p>
-    <select id="productos" onchange="lap()" class="caja">
+    <select id="productos" class="caja">
       <option value="">Productos</option>
       <option value="2300">Laptop</option>
       <option value="850">Tablet</option>
@@ -18,33 +18,34 @@
   </div>
   <div id="div2">
     <p>Precio</p>
-    <p id="precio" class="caja"></p>
+    <input type="text" id="precio" class="caja" >
   </div>
   <div id="div3">
     <p>Cantidad</p>
     <input type="text" id="cantidad" class="caja">
   </div>
-  <button type="button" name="button" id="button" onclick="AgregarProd()">Add</button>
+  <button type="button" name="button" id="button" onclick="agregar()">Add</button>
     <table id="info">
+      <thead>
     <tr>
       <th>Producto</th>
       <th>Precio</th>
       <th>Cantidad</th>
       <th>SubTotal</th>
-      <th>¿Eliminar?</th>
     </tr>
+    </thead>
   </table>
   <div id="asd"><div>
     <p>SubTotal:</p>
-    <p type="text" class="caja" id="SubTotal"></p>
+    <input type="text" id="SubTotal" class="caja">
   </div>
   <div>
     <p>IGV:</p>
-    <p type="text" class="caja" id="IGV"></p>
+    <input type="text" id="IGV" class="caja">
   </div>
   <div>
     <p>Total:</p>
-    <p type="text" class="caja" id="Total"></p>
+    <input type="text" id="Total" class="caja"><br>
   </div>
 </div>
   <script src="js/script.js"></script>
